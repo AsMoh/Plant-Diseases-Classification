@@ -1,3 +1,4 @@
+<br>
 # ☘️☘️ Plant Diseases Classification with Deep learning ☘️☘️
 
 ### 📝 About the dataset:
@@ -9,6 +10,9 @@ The 38 classes are :
 
 The first part of the class name is the plant/crop name and the rest of the name indicates the disease name if it is not healthy. For example, Apple___Black_rot -->> Apple is the name of the plant, an dthe name of the disease is  Black_rot. Apple___healthy refers to a healthy apple plant.
 
+How to download the dataset is clarified in the notebook.ipynb. Below is kagge link to download the dataset:
+https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset
+
 ### 🎯 Goal :
 
-Our goal is to build plant diseases classifier that predicts wheter a plant is healthy or not, and if it is not healthy, the model will precict the type of the disease. We will user transfer learning where we 
+Our goal is to build plant diseases classifier that predicts wheter a plant is healthy or not, and if it is not healthy, the model will precict the type of the disease. We will use transfer learning particulary 2 pretarined models: Xception & ResNet50V2, and we will retarin them on our dataset.
