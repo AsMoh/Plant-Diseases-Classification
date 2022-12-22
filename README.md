@@ -27,4 +27,4 @@ https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset
 
 ### 🎯 Goal :
 
-Our goal is to build plant diseases classifier that predicts wheter a plant is healthy or not, and if it is not healthy, the model will precict the type of the disease. We will use transfer learning particulary 2 pretarined models: Xception & ResNet50V2, and we will retarin them on our dataset.
+Our goal is to build plant diseases classifier that predicts wheter a plant is healthy or not, and if it is not healthy, the model will precict the type of the disease. We will use transfer learning in this project, and particulary the 2 pretarined models used are Xception & ResNet50V2, and we will retarin them on our dataset.
