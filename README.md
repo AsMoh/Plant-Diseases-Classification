@@ -19,6 +19,8 @@ Below are samples of the dataset images:
 ![2bbd67e6-0eb0-4569-92fd-bc5fbf4c6570___R S_HL 8344 copy 2](https://user-images.githubusercontent.com/10277729/209166582-7e41446c-9df7-4182-ae33-3566632a43a2.jpg)
 ![3ddb5798-8a7d-47e7-87cc-4189675cae80___R S_HL 5496 copy 2](https://user-images.githubusercontent.com/10277729/209166639-b71d68fa-953d-4fa5-8254-19e68bd548df.jpg)
 
+![0e30d373-58ad-4464-ab61-89cc9d4ab912___RS_HL 2543_newPixel25](https://user-images.githubusercontent.com/10277729/209166849-73bb5d76-0ec7-4f7a-9e92-19dffe10db04.JPG)
+![0a2ed402-5d23-4e8d-bc98-b264aea9c3fb___Rutg _HL 2471](https://user-images.githubusercontent.com/10277729/209166915-0dbf2510-257c-4a7c-bbad-7690209b6622.JPG)
 
 How to download the dataset is clarified in the notebook.ipynb. Below is kagge link to download the dataset:
 https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset
