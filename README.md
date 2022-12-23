@@ -29,7 +29,10 @@ https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset
 
 Our goal is to build plant diseases classifier that predicts wheter a plant is healthy or not, and if it is not healthy, the model will precict the type of the disease. We will use transfer learning in this project, and particulary the 2 pretarined models used are Xception & ResNet50V2, and we will retarin them on our dataset.
 
-######## To be able to view the notebook online, click on the below link:
+To be able to view the notebook online, click on the below link:
 https://app.reviewnb.com/AsMoh/Plant-Diseases-Classification/blob/main/notebook.ipynb 
+
+Further, you can downlod the final model from the below link:
+https://drive.google.com/file/d/1QtH81thNfShsm8DDs3_ZDkTduc95Ej8R/view?usp=sharing
 
 
