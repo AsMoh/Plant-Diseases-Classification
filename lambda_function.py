@@ -2,13 +2,14 @@
 # coding: utf-8
 
 import tflite_runtime.interpreter as tflite
+import numpy as np
 from keras_image_helper import create_preprocessor
 
 
 preprocessor = create_preprocessor('xception', target_size=(224, 224))
 
 
-interpreter = tflite.Interpreter(model_path='clothing-model.tflite')
+interpreter = tflite.Interpreter(model_path='plant-classification-model.tflite')
 interpreter.allocate_tensors()
 
 input_index = interpreter.get_input_details()[0]['index']
@@ -68,12 +69,13 @@ def predict(url):
     float_predictions = preds[0].tolist()
     indx=np.argmax(float_predictions)
     
-    return classes[indx])
+    return classes[indx]
 
 
 def lambda_handler(event, context):
     url = event['url']
     result = predict(url)
+    print(result)
     return result
 
 
