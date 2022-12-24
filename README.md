@@ -37,18 +37,30 @@ https://app.reviewnb.com/AsMoh/Plant-Diseases-Classification/blob/main/notebook.
 You can downlod the final model xception_v1_47_0.9591.h5 from the below link:
 https://drive.google.com/file/d/1QtH81thNfShsm8DDs3_ZDkTduc95Ej8R/view?usp=sharing
 
-Converting Keras model to TF-Lite.ipynb file contains the code for converting the model to TF-Lite to deply it in the cloud easily. 
+"Converting Keras model to TF-Lite.ipynb" file contains the code for converting the model to TF-Lite to deply it in the cloud easily. 
 
 I have created a docker image for the model by running the below commands, and the docker file & the lamda_function.py files have been uploaded in this repository:
 <br>
-<code>
-docker build -t plant-disease-model:v1 .   <br>
-docker run -it --rm -p 8080:8080 plant-disease-model:v1    <br>  
-</code>
+<code>docker build -t plant-disease-model:v1 . </code>  <br>
+
+To run the docker image, I run the below command.
+<code> docker run -it --rm -p 8080:8080 plant-disease-model:v1   </code> <br>  
+
+
 The docker image can be downloaded from docker hub by running the below command:
  <code> docker pull asia2022/plant-diseases-classifier:v1 </code>
+ 
+ To run the docker image downloded from the docker hub, run the below command:
+ <code> docker run -it --rm -p 8080:8080 asia2022/plant-diseases-classifier:v1  </code>
+ 
+ ### Demo for deploying the model locally with lamda:
+ 
 
 
+
+
+
+https://user-images.githubusercontent.com/10277729/209446806-ed2f70b3-4a2a-4b64-88fa-6fe011fffc85.mp4
 
 
 
