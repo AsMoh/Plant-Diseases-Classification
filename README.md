@@ -1,4 +1,4 @@
-# ☘️☘️Plant Diseases Classification with Deep learning☘️☘️
+# ☘️ Plant Diseases Classification with Deep learning ☘️
 
 ### 📝 About the dataset:
 
@@ -32,7 +32,24 @@ Our goal is to build plant diseases classifier that predicts wheter a plant is h
 To be able to view the notebook online, click on the below link:
 https://app.reviewnb.com/AsMoh/Plant-Diseases-Classification/blob/main/notebook.ipynb 
 
-Further, you can downlod the final model from the below link:
+### Running & deploying the modely in the local machine:
+
+You can downlod the final model xception_v1_47_0.9591.h5 from the below link:
 https://drive.google.com/file/d/1QtH81thNfShsm8DDs3_ZDkTduc95Ej8R/view?usp=sharing
+
+Converting Keras model to TF-Lite.ipynb file contains the code for converting the model to TF-Lite to deply it in the cloud easily. 
+
+I have created a docker image for the model by running the below commands:
+<br>
+<code>
+docker build -t plant-disease-model:v2 .   <br>
+docker run -it --rm -p 8080:8080 plant-disease-model:v2    <br>
+<code>
+
+
+
+
+
+
 
 
