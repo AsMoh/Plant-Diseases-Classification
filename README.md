@@ -43,14 +43,14 @@ I have created a docker image for the model by running the below commands, and t
 <br>
 <code>docker build -t plant-disease-model:v1 . </code>  <br>
 
-To run the docker image, I run the below command.
+To run the docker image, I run the below command. <br>
 <code> docker run -it --rm -p 8080:8080 plant-disease-model:v1   </code> <br>  
 
 
-The docker image can be downloaded from docker hub by running the below command:
+The docker image can be downloaded from docker hub by running the below command: <br>
  <code> docker pull asia2022/plant-diseases-classifier:v1 </code>
  
- To run the docker image downloded from the docker hub, run the below command:
+ To run the docker image downloded from the docker hub, run the below command: <br>
  <code> docker run -it --rm -p 8080:8080 asia2022/plant-diseases-classifier:v1  </code>
  
  ### Demo for deploying the model locally with lamda:
@@ -62,7 +62,14 @@ The docker image can be downloaded from docker hub by running the below command:
 
 https://user-images.githubusercontent.com/10277729/209446806-ed2f70b3-4a2a-4b64-88fa-6fe011fffc85.mp4
 
+<br>
+Above video shows a demo for deplying the model locally, passing an image for Apple with Apple scab diesease to the model and classifying the image by the model as unhealthy with scab diesease.
 
+<br>
+
+### Running & deploying the modely in the cloud:
+
+### Demo for deploying the model  in the cloud with serverless:
 
 
 
