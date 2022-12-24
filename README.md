@@ -1,4 +1,4 @@
-# ☘️☘️ Plant Diseases Classification with Deep learning ☘️☘️
+# ☘️☘️Plant Diseases Classification with Deep learning☘️☘️
 
 ### 📝 About the dataset:
 
