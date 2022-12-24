@@ -53,6 +53,8 @@ The docker image can be downloaded from docker hub by running the below command:
  To run the docker image downloded from the docker hub, run the below command: <br>
  <code> docker run -it --rm -p 8080:8080 asia2022/plant-diseases-classifier:v1  </code>
  
+ Then, you can modify & run the test.py file to classify the images of the plants.
+ 
  ### Demo for deploying the model locally with lamda:
  
 
