@@ -39,13 +39,14 @@ https://drive.google.com/file/d/1QtH81thNfShsm8DDs3_ZDkTduc95Ej8R/view?usp=shari
 
 Converting Keras model to TF-Lite.ipynb file contains the code for converting the model to TF-Lite to deply it in the cloud easily. 
 
-I have created a docker image for the model by running the below commands:
+I have created a docker image for the model by running the below commands, and the docker file & the lamda_function.py files have been uploaded in this repository:
 <br>
 <code>
-docker build -t plant-disease-model:v2 .   <br>
-docker run -it --rm -p 8080:8080 plant-disease-model:v2    <br>
-<code>
-
+docker build -t plant-disease-model:v1 .   <br>
+docker run -it --rm -p 8080:8080 plant-disease-model:v1    <br>  
+</code>
+The docker image can be downloaded from docker hub by running the below command:
+ <code> docker pull asia2022/plant-diseases-classifier:v1 </code>
 
 
 
