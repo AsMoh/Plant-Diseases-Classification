@@ -71,6 +71,13 @@ The above video shows a demo for deploying the model locally, passing an image o
 
 ### Running & deploying the model in the cloud:
 
+I have deployed the model in a serverless environment on AWS using Lambda, and API Gateway. The invoke URL for the service is https://x0ywfq3odb.execute-api.us-east-1.amazonaws.com/FirstTest1/predict . 
+
+test-cloud.py file includes the code for testing the deployed model.
+
 ### Demo for deploying the model  in the cloud with serverless:
+
+
+The above video shows a demo for sending requests to the deployed model & getting the response back with the model prediction.
 
 
