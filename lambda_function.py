@@ -16,7 +16,7 @@ input_index = interpreter.get_input_details()[0]['index']
 output_index = interpreter.get_output_details()[0]['index']
 
 
-classes=['AppleApplescab',
+classes=['Applescab',
  'AppleBlackrot',
  'AppleCedarapplerust',
  'Applehealthy',
@@ -51,8 +51,8 @@ classes=['AppleApplescab',
  'TomatoSeptorialeafspot',
  'TomatoSpidermites Two-spottedspidermite',
  'TomatoTargetSpot',
- 'TomatoTomatoYellowLeafCurlVirus',
- 'TomatoTomatomosaicvirus',
+ 'TomatoYellowLeafCurlVirus',
+ 'Tomatomosaicvirus',
  'Tomatohealthy']
 
 
