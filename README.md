@@ -81,7 +81,7 @@ test-cloud.py file includes the code for testing the deployed model.
 https://user-images.githubusercontent.com/10277729/210170563-5312c1c0-5704-433d-baf6-094b59f4cc02.mp4
 
 
-
+<br>
 The above video shows a demo for sending requests to the deployed model & getting the response back with the model prediction.
 
 
